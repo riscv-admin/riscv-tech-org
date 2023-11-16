@@ -1,0 +1,54 @@
+<!-- This is an HTML file that displays the RISC-V Technical Organization chart. It contains a header, 
+a Board of Directors section, and a Technical Steering Committee section. 
+The Technical Steering Committee section contains links to various subcommittees and working groups. 
+The file also includes an image at the bottom. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RISC-V Tech Org</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">RISC-V Technical Organization</h1>
+
+        <!-- Board of Directors Section -->
+        <div class="bod-container">
+            <a href="https://riscv.org/about/board-of-directors/" class="bod-header" target="_blank">Board of Directors (BoD)</a>
+
+            <!-- Technical Steering Committee Section -->
+            <div class="tsc-container">
+                <a href="https://riscv.org/about/technical-steering-committee/" class="tsc-header" target="_blank">Technical Steering Committee (TSC)</a>
+                <div class="center-rows">
+                    <a href="https://lists.riscv.org/g/tech-profiles" class="center-row" target="_blank">Profiles</a>
+                    <a href="https://lists.riscv.org/g/tech-server-platform" class="center-row" target="_blank">Server Platforms</a>
+                </div>
+                <div class="row-group">
+                    <a href="https://jira.riscv.org/browse/RVG-4" class="row row-c" target="_blank">Applications and Tools HC</a>
+                    <a href="https://jira.riscv.org/browse/RVG-39" class="row row-d" target="_blank">Privileged Software HC</a>
+                    <a href="https://jira.riscv.org/browse/RVG-68" class="row row-e" target="_blank">Security HC</a>
+                    <a href="https://jira.riscv.org/browse/RVG-104" class="row row-f" target="_blank">Technology HC</a>
+                    <a href="https://jira.riscv.org/browse/RVG-88" class="row row-g" target="_blank">SOC Infrastructure HC</a>
+                    <a href="https://jira.riscv.org/browse/RVG-32" class="row row-h" target="_blank">ISA Infrastructure HC</a>
+                    <div class="vertical-columns">
+                        <a href="https://lists.riscv.org/g/tech-arch-review"class="cross-row" target="_blank">Architecture Review</a>
+                        <a href="https://jira.riscv.org/browse/RVG-59" class="vertical-column" target="_blank">Privileged IC</a>
+                        <a href="https://jira.riscv.org/browse/RVG-122" class="vertical-column" target="_blank">Unprivileged IC</a>
+                        <div class="vertical-column vertical-column-m">
+                            RISC-V CTO <br>
+                            & <br>
+                            Staff
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- End of TSC container -->
+        </div> <!-- End of BoD container -->
+
+        <img src="riscv.png" alt="RISC-V" class="bottom-image">
+    </div>
+</body>
+</html>
